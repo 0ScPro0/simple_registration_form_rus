@@ -1,0 +1,38 @@
+/* registration_successful.css - Стили для страницы со списком зарегестрированных пользователей */
+@import url('./styles.css'); /* Подключаем переменные */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ol li {
+    margin-bottom: 10px; /* Отступ между пунктами */
+}
+
+.info_container {
+    align-items: center;
+    align-content: center;
+    background: var(--card-bg);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #333;
+}
+
+.info_label {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.users_list {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(22, 22, 22) var(--card-bg);
+}

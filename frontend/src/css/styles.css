@@ -1,0 +1,19 @@
+/* styles.css - Только глобальные переменные и базовые стили */
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #e0e0e0;
+    --primary-color: #bb86fc;
+    --primary-hover: #9e6ad6;
+    --input-bg: #2d2d2d;
+    --input-border: #444;
+    --error-color: #cf6679;
+    --success-color: #03dac6;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+}
