@@ -1,7 +1,7 @@
 const ol_users_list = document.getElementById("ol_users_list");
 
 async function get_data() {
-    const response = await fetch ("http://localhost:8000/get_data", {
+    const response = await fetch ("/get_data", {
             method: "GET",
         });
     

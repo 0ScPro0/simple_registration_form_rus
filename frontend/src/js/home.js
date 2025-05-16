@@ -32,7 +32,7 @@ async function send_data(event) {
     };
     
     try {
-        const response = await fetch("/send_data", {  // Убрали полный URL
+        const response = await fetch("/send_data", { 
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
